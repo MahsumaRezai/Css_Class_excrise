@@ -1,0 +1,15 @@
+.warrp{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(4,1fr);
+    height: 100vh;
+}
+.box-one{
+    background: red
+}
+.box-two{
+    background: rebeccapurple
+}
+.box-three {
+    background: gold
+}
