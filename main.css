@@ -1,15 +1,40 @@
-.warrp{
+.grid {
     display: grid;
-    grid-template-columns: repeat(4,1fr);
-    grid-template-rows: repeat(4,1fr);
-    height: 100vh;
+    place-content: center;
 }
-.box-one{
-    background: red
+.box {
+    width: 300px;
+    height: 200px;
+    border: 10px solid  hotpink;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold
 }
-.box-two{
-    background: rebeccapurple
+.one {
+    background: yellowgreen;
+    position: relative;
+    z-index: 1;
+    top: 100px;
+    left: 200px;
+    text-align: center;
+    padding-top: 50px
+
 }
-.box-three {
-    background: gold
+.two {
+    background:  yellow;
+    z-index: 2;
+    text-align: center;
+    padding-top: 30px;
+    top: 200px;
+
+
+}
+.three {
+    background: seagreen;
+    z-index: 3;
+    top: -100px;
+    left: -100px;
+    position: relative;
+    padding-top: 40px
+
 }
