@@ -7,6 +7,7 @@
 img {
   width: 250px;
   height: 250px;
+  border: 2px solid  gainsboro
 
 }
 .main {
@@ -19,6 +20,55 @@ img {
   margin: auto;
   padding-top: 100px;
 
+}
 
+.images { 
+  overflow: hidden;
+  border-radius: 20px;
 
+}
+.images:hover img {
+  transform: scale(1.2);
+  transition: transform 700ms;  
+}
+.images:hover {
+  background: rebeccapurple;
+}
+.head {
+  background: gainsboro;
+  width: 100%;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+  flex-direction: row;
+}
+.list {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+  flex-direction: row;
+
+}
+.list a {
+  list-style-type: none;
+  text-decoration: none;
+  color: white;
+
+  
+}
+.list li {
+  list-style-type: none;
+  background: rebeccapurple;
+  border-radius: 100px;
+  padding: 20px
+}
+
+.link:hover {
+  transform: translateY(-30px);
+  font-weight: bold;
+  transition: transform 300ms
+  
 }
