@@ -169,3 +169,34 @@ h1 {
   font-size: 20px
   
 }
+.warrper {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+
+}
+.warrperOne {
+  background: linear-gradient(
+    red,
+    yellow,
+     orange,
+    white
+
+
+  );
+  width: 200px;
+  height: 200px;
+  border-radius: 200px;
+  position: relative;
+}
+.blur {
+  position: absolute;
+  filter: blur(50px);
+  transform: scale(1.5);
+ 
+}
+body {
+  background: black;
+}
