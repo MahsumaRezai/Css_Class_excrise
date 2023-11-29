@@ -197,6 +197,24 @@ h1 {
   transform: scale(1.5);
  
 }
-body {
+header {
+  background: hsl(0deg 0% 100% / 0.5);
+   filter :backdrop-filter blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+.backwarrper {
+  position: relative;
+}
+.back {
+  border-radius: 55% 45% 8% 10% /73% 16% 84% 27%;
+  width: 200px;
+  height: 100px;
   background: black;
+  position: relative;
+}
+
+.backapp {
+ position: absolute;
+ filter: blur(20px);
+
 }
