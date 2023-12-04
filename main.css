@@ -218,3 +218,19 @@ header {
  filter: blur(20px);
 
 }
+.showdow {
+  margin: auto;
+  width: 200px;
+  filter: drop-shadow(
+    2px 4px 32px hsl(0deg 0% 0% / 0.4)
+  ); 
+  background: gainsboro; border: 1px solid black;
+  padding:20px;
+  margin-top: 20px
+
+
+}
+.title {
+  text-align: center;
+
+}
